@@ -1,20 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-File   		: MiscFunctions.py
-Version 	: 0.1
-Author 		: Dominik R. Laetsch, dominik.laetsch at gmail dot com 
-Bugs 		: None.
-To do 		: 
-"""
-
 def keyWithMaxVal(d):
-	"""
-    http://stackoverflow.com/a/12343826 
-    a) create a list of the dict's keys and values; 
-	b) return the key with the max value
-	"""  
 	v=list(d.values())
 	k=list(d.keys())
 	return k[v.index(max(v))]
