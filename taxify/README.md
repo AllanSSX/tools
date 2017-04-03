@@ -1,4 +1,4 @@
-#Taxify
+# Taxify
 
 #### Get taxonomy informations from Blast output (human readable)
 ## 1 Tools and dependencies
