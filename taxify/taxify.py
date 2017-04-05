@@ -107,7 +107,7 @@ class InputObject():
 def getInput():
 	parser = argparse.ArgumentParser(
 		prog='makeblobs.py',
-		usage = '%(prog)s -a <ASSEMBLY> -cas <CAS> -blast <BLAST> -taxdb <PATH_TO_TAXDB> -o <OUTPUT> [-h]',
+		usage = '%(prog)s -a <ASSEMBLY> -blast <BLAST> -taxdb <PATH_TO_TAXDB> -o <OUTPUT> [-h]',
 		add_help=True)
 	# only ONE assembly file
 	parser.add_argument('-a', metavar = 'ASSEMBLY_FASTA', default='', help='Assembly file')
